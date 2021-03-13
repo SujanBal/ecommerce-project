@@ -1,0 +1,16 @@
+.signin {
+	background-color: black;
+	display: flex;
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid black;
+}
+.signin-first {
+	display: flex;
+	justify-content: space-between;
+}
+.signin-second {
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+.connect {
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid black;
+}
+.footerlinks {
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 280px;
+	color: white;
+	background-color: black;
+	width: 100%;
+}
+.links-container {
+	height: 80%;
+	width: 300px;
+}
+.links {
+	list-style-type: none;
+}
+.links > li > a {
+	text-decoration: none;
+}
+.copyright {
+	border-top: 1px solid white;
+	background-color: black;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 50px;
+	width: 100%;
+	color: white;
+}
