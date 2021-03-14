@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import "./index.css";
 
 export default function Category() {
-	const [categories, setcategories] = useState(category);
+	const [categories] = useState(category);
+	// setcategories
 	return (
 		<section className="category">
 			{categories.map((category) => {

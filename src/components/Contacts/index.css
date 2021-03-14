@@ -1,0 +1,48 @@
+.map {
+	border: 1px solid black;
+	height: 250px;
+	width: 100%;
+}
+
+.about {
+	height: 350px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 80px;
+}
+.about-items {
+	height: 100%;
+	width: 250px;
+}
+.about-items > img {
+	height: 80%;
+	width: 100%;
+}
+.faq {
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 400px;
+	width: 100%;
+	padding: 20px 80px;
+}
+.faq-questions {
+	width: 600px;
+	border: 1px solid black;
+}
+.question-items {
+	cursor: pointer;
+	border: 1px solid black;
+}
+.singlequestion {
+	border: 1px solid black;
+}
+
+.contact-form {
+	border: 1px solid black;
+	height: 80%;
+	width: 400px;
+	padding-top: 120px;
+}

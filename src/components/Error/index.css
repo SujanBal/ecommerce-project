@@ -1,0 +1,18 @@
+.error{
+    min-height:63vh;
+    text-align: center;
+}
+.homepage-link{
+    padding:30px;
+}
+.homepage-link a{
+    text-decoration: none;
+    color:white;
+    background-color: red;
+    padding: 10px 15px;
+    margin:20px 0;
+    border-radius: 3px;
+}
+.homepage-link a:hover{
+    background-color: black;
+}

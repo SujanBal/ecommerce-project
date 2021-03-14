@@ -1,13 +1,12 @@
-const people = [
+const slider = [
 	{
 		id: 1,
-		image:
-			"https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg",
+		image: "../../images/slider1.jpg",
 	},
 	{
 		id: 2,
 		image:
-			"https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+			"https://images.unsplash.com/photo-1598994392980-53a7fb033bcc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1764&q=80",
 	},
 	{
 		id: 3,
@@ -21,7 +20,7 @@ const people = [
 	},
 ];
 
-export default people;
+export default slider;
 
 const category = [
 	{

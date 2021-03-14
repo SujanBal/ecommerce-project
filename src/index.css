@@ -1,5 +1,10 @@
 * {
 	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
-	font-family: "Public Sans", sans-serif;
+	font-family: "Roboto", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+.margin-auto {
+	width: 80%;
+	margin: 0 auto;
 }

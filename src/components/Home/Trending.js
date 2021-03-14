@@ -27,9 +27,9 @@ export default function Trending() {
 						image,
 						info,
 						category,
-						glass,
+						// glass,
 						instructions,
-						ingredients,
+						// ingredients,
 					} = trendingitems;
 
 					return (

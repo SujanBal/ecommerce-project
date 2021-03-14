@@ -1,20 +1,211 @@
-.nav {
-	padding: 30px 100px;
+.header-bottom{
+    position: sticky;
+    top:0;
 }
-.nav-search {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.header-bottom-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
-.form {
-	display: flex;
-	flex: 1;
+.header-bottom-top-container{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+
 }
-.form > input {
-	flex-grow: 1;
+.header-logo{
+    padding: 20px 15px 20px 20px;
 }
-.nav-items {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+.header-logo h1{
+    width: 225px;
 }
+.header-logo h1 a{
+    font-size: 40px;
+    font-weight: 900;
+    color:red;
+    text-decoration: none;
+}
+.header-log-s{
+    color:black;
+}
+.header-form{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-form form{
+    flex-grow: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.header-form form input[type='text']{
+    width:90%;
+    height:45px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 14px 14px;
+    font-size: 15px;
+    color: black;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 235, 235);
+    font-weight: 600;
+}
+.header-form form input[type='text']::-webkit-input-placeholder{
+    color: rgb(175, 174, 174);
+}
+.responsive-search{
+    display: none;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:rgba(0,0,0,0.8);
+    z-index: 100;
+    /* display:flex; */
+    justify-content: center;
+    align-items: center;
+}
+.responsive-form-container{
+    display: flex;
+}
+.close-icon{
+    position:absolute;
+    top:20%;
+    right:20%;
+    color:white;
+    font-size: 18px;
+}
+.responsive-search form input[type='text']{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width:90%;
+    height:45px;
+    padding: 14px 14px;
+    font-size: 15px;
+    color: black;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 235, 235);
+    font-weight: 600;
+}
+.responsive-search form input[type='text']::-webkit-input-placeholder{
+    color: rgb(175, 174, 174);
+}
+.header-form button{
+    cursor: pointer;
+    border:none;
+    border-radius: 6px;
+   
+}
+.header-form button:focus{
+    outline:0px;
+}
+.header-form a{
+    text-decoration: none;
+}
+
+.search-icon{
+    padding:16px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(236, 235, 235);
+    color: rgb(175, 174, 174);
+    transition: color 200ms ease-in-out;
+}
+.search-icon:hover{
+    color:black;
+    border:none;
+}
+.cart-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+   
+}
+.cart-button a{
+    padding:12px 15px;
+    background-color:red;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display:flex;
+    transition: all 300ms ease-in-out;
+}
+.cart-button a:hover{
+    background-color: black;
+}
+.cart-icon{
+    margin-right:10px;
+    font-weight: 500;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-container{
+    padding-left:20px;
+    width:75%;
+    margin-bottom: 20px;
+}
+.navigation-container a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color:black;
+    transition: color 200ms ease-in-out;
+}
+.navigation-container a:hover{
+    color:red;
+}
+.navigation-container a:not(:last-child){
+    margin-right:20px;
+}
+
+
+@media screen and (max-width:992px){
+	.header-bottom-top-container{
+		width:90%;
+		
+	}
+    .navigation-container{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width:768px){
+	.header-form form input[type='text']{
+        display: none;
+    }
+    .header-form form{
+        justify-content: flex-end;
+    }
+    .search-icon{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+}
+@media screen and (max-width:576px){
+	.header-bottom-top-container{
+		width:100%;
+	
+	}
+    .navigation-container{
+        width:100%;
+    }
+    .header-form form{
+        justify-content: center;
+    }
+
+}
+

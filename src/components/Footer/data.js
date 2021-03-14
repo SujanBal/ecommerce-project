@@ -1,4 +1,4 @@
-export default [
+const data = [
 	{
 		title: "Help",
 		links: [
@@ -40,3 +40,4 @@ export default [
 		],
 	},
 ];
+export default data;

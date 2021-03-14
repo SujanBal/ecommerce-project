@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useCallback } from "react";
-import people from "./data";
+import slider from "./data";
 import "./index.css";
 
 export default function Hero() {
-	const [backgrounds, setbackgrounds] = useState(people);
+	const [backgrounds] = useState(slider);
+	// setbackgrounds
 	const [backgroundindex, setbackgroundindex] = useState(0);
 
 	const checknum = useCallback(
@@ -35,7 +36,7 @@ export default function Hero() {
 		};
 	}, [backgroundindex, checknum]);
 	return (
-		<section className="hero">
+		<section className="slider">
 			{backgrounds.map((background, index) => {
 				let position = "next";
 				if (backgroundindex === index) {
@@ -49,23 +50,34 @@ export default function Hero() {
 				}
 				const { id, image } = background;
 				return (
-					<div className={`background ${position}`} key={id}>
+					<div className={`slider-background ${position}`} key={id}>
 						<img src={image} alt="background" />
 					</div>
 				);
 			})}
-			<div className="slider-button">
-				<button onClick={leftHandler}>left</button>
-				<button onClick={rightHandler}>right</button>
+			<div className="slider-button-div left">
+				<button onClick={leftHandler}>
+					<i class="fas fa-chevron-left"></i>
+				</button>
 			</div>
-			<div className="hero-info">
-				<h3>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-					consequuntur accusamus itaque debitis totam ab similique vitae. Harum
-					minus doloremque quos numquam praesentium maiores fugit aspernatur
-					laborum, quo, ad eveniet?
-				</h3>
-				<button>Read More</button>
+			<div className="slider-button-div right">
+				<button onClick={rightHandler}>
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+			<div className="slider-info">
+				<div className="slider-info-heading">
+					<h1>S-Cocktail</h1>
+					<h1>Is</h1>
+					<h1>Back In Town</h1>
+				</div>
+				<div className="slider-info-text">
+					Faster ordering with a whole new search and navigate. Shop your last
+					order with just a one click.
+				</div>
+				<div className="slider-info-button">
+					<button>Read More</button>
+				</div>
 			</div>
 		</section>
 	);
