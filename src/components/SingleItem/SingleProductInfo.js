@@ -60,11 +60,11 @@ export default function SingleProductInfo() {
 							{glass}
 						</p>
 						<p>
-							<span>Instructions:</span>
+							<span className="ingredients">Instructions:</span>
 							{instructions}
 						</p>
 						<p>
-							<span>Ingredients :</span>
+							<span className="ingredients">Ingredients :</span>
 							{ingredients &&
 								ingredients.map((ingredient, index) => {
 									return ingredient ? (

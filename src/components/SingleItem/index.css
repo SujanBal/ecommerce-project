@@ -61,8 +61,14 @@ p span{
     margin-right:10px;
 
 }
+.ingredients, .insturctions{
+    display: inline-block;
+    /* z-index:10; */
+    /* margin-bottom: px; */
+}
 .ingredients-list{
     background-color: white;
+    padding:0;
     color:black;
  
     font-size:16px;
