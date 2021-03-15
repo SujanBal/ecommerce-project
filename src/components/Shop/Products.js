@@ -8,6 +8,7 @@ export default function Products() {
 	const { searchitem, items } = useDefaultContext();
 	useEffect(() => {
 		document.querySelector("#searchref").value = searchitem;
+		document.querySelector("#searchref").focus();
 	}, [searchitem]);
 	useEffect(() => {
 		const timeout = setTimeout(() => {

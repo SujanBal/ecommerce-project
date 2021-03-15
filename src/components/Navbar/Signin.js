@@ -10,23 +10,23 @@ export default function Signin() {
 					<span className="span-gray">Customer Care</span>+977-9864118047
 				</span>
 				<span className="icons-location">
-					<i class="fas fa-map-marker-alt header-icons"></i>
-					<Link>Store Location</Link>
+					<i className="fas fa-map-marker-alt header-icons"></i>
+					<Link to="#">Store Location</Link>
 				</span>
 				<span className="icons-mobile">
-					<i class="fas fa-mobile-alt header-icons"></i>
-					<Link>Download App</Link>
+					<i className="fas fa-mobile-alt header-icons"></i>
+					<Link to="#">Download App</Link>
 				</span>
 			</div>
 
 			<div className="header-top-right">
 				<span className="signup">
-					<Link>Sign Up / Log In</Link>
+					<Link to="#">Sign Up / Log In</Link>
 				</span>
 				<span className="bar">|</span>
 				<span className="mylist">
-					<i class="far fa-heart header-icons"></i>
-					<Link>My List</Link>
+					<i className="far fa-heart header-icons"></i>
+					<Link to="#">My List</Link>
 				</span>
 			</div>
 		</div>

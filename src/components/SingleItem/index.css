@@ -43,8 +43,8 @@
     align-items: center;
 }
 .singleproduct-image img{
-    width:350px;
-    height:380px;
+    width:100%;
+    height:100%;
 }
 .singleproduct-details{
     width:50%;
@@ -102,10 +102,7 @@ p span{
         margin:auto;
        
     }
-    .singleproduct-image img{
-        height:300px;
-        width:300px;
-    }
+   
     .singleproduct-details{
         width:100%;
     }
@@ -118,13 +115,6 @@ p span{
 		width:100%;
 		
 	}
-    .singleproduct-image{
-        margin:auto;
-       
-    }
-    .singleproduct-image img{
-        height:200px;
-        width:200px;
-    }
+  
 }
 

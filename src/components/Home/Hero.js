@@ -61,12 +61,12 @@ export default function Hero() {
 			})}
 			<div className="slider-button-div left">
 				<button onClick={leftHandler}>
-					<i class="fas fa-chevron-left"></i>
+					<i className="fas fa-chevron-left"></i>
 				</button>
 			</div>
 			<div className="slider-button-div right">
 				<button onClick={rightHandler}>
-					<i class="fas fa-chevron-right"></i>
+					<i className="fas fa-chevron-right"></i>
 				</button>
 			</div>
 			<div className="slider-info">

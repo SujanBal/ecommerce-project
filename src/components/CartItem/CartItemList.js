@@ -55,7 +55,7 @@ export default function CartItemList() {
 								</div>
 								<div className="changeamount">
 									<i
-										class="fas fa-chevron-up"
+										className="fas fa-chevron-up"
 										onClick={() => {
 											increasecart(id);
 										}}
@@ -63,7 +63,7 @@ export default function CartItemList() {
 
 									<h3>{amount}</h3>
 									<i
-										class="fas fa-chevron-down"
+										className="fas fa-chevron-down"
 										onClick={() => {
 											decreasecart(id);
 										}}

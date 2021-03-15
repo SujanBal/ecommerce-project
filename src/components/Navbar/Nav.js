@@ -43,13 +43,13 @@ export default function Nav() {
 							/>
 							<Link to="/shop">
 								<button type="submit">
-									<i class="fas fa-search search-icon"></i>
+									<i className="fas fa-search search-icon"></i>
 								</button>
 							</Link>
 						</form>
 					</div>
-					<div className="responsive-search">
-						<i class="far fa-times close-icon"></i>
+					{/* <div className="responsive-search">
+						<i className="far fa-times close-icon"></i>
 						<form
 							className="responsive-form-container"
 							onSubmit={searchFormHandler}
@@ -62,15 +62,15 @@ export default function Nav() {
 							/>
 							<Link to="/shop">
 								<button type="submit">
-									<i class="fas fa-search search-icon"></i>
+									<i className="fas fa-search search-icon"></i>
 								</button>
 							</Link>
 						</form>
-					</div>
+					</div> */}
 
 					<div className=" cart-button">
 						<Link to="/mycart" className="cart-button-link ">
-							<i class="fal fa-shopping-cart cart-icon"></i>$
+							<i className="fal fa-shopping-cart cart-icon"></i>$
 							{total_price.toFixed(2)}
 						</Link>
 					</div>

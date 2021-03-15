@@ -58,7 +58,7 @@
 .header-form form input[type='text']::-webkit-input-placeholder{
     color: rgb(175, 174, 174);
 }
-.responsive-search{
+/* .responsive-search{
     display: none;
     position:absolute;
     top:0;
@@ -67,7 +67,6 @@
     width:100%;
     background-color:rgba(0,0,0,0.8);
     z-index: 100;
-    /* display:flex; */
     justify-content: center;
     align-items: center;
 }
@@ -96,14 +95,17 @@
 }
 .responsive-search form input[type='text']::-webkit-input-placeholder{
     color: rgb(175, 174, 174);
-}
+} */
 .header-form button{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
     cursor: pointer;
     border:none;
     border-radius: 6px;
    
 }
 .header-form button:focus{
+   
     outline:0px;
 }
 .header-form a{
