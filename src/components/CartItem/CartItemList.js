@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import useDefaultContext from "../../context";
 import "./index.css";
 
@@ -13,6 +13,9 @@ export default function CartItemList() {
 		clearallcart,
 	} = useDefaultContext();
 	// const [amount, setamount] = useState(1);
+	useEffect(() => {
+		document.querySelector("#searchref").value = null;
+	}, []);
 	return (
 		<section className="cartitemlist">
 			<div className="cartitemlist-container">

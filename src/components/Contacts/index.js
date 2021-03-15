@@ -1,14 +1,16 @@
 import React from "react";
-import About from "./About";
-import Faq from "./Faq";
-import Map from "./Map";
+// import About from "./About";
+// import Faq from "./Faq";
+// import Map from "./Map";
+import Workingon from "./Workingon";
 
 export default function index() {
 	return (
 		<section className="contacts">
-			<Map />
+			<Workingon />
+			{/* <Map />
 			<About />
-			<Faq />
+			<Faq /> */}
 		</section>
 	);
 }

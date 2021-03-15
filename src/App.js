@@ -6,13 +6,8 @@ import SingleItem from "./components/SingleItem";
 import CartItem from "./components/CartItem";
 import Footer from "./components/Footer";
 import Error from "./components/Error";
-// import Contacts from "./components/Contacts";
+import Contacts from "./components/Contacts";
 import Home from "./components/Home";
-
-// import "jquery/dist/jquery.min.js";
-// import "popper.js/dist/popper.min";
-// import "bootstrap/dist/js/bootstrap.min.js";
-// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
 	return (
@@ -31,9 +26,9 @@ function App() {
 				<Route path="/mycart">
 					<CartItem />
 				</Route>
-				{/* <Route path="/contacts">
+				<Route path="/contacts">
 					<Contacts />
-				</Route> */}
+				</Route>
 				<Route path="*">
 					<Error />
 				</Route>
