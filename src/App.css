@@ -1,3 +1,6 @@
 button:hover{
     background-color: black;
 }
+.App{
+    min-width: 400px;
+}
