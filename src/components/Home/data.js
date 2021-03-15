@@ -1,17 +1,18 @@
 const slider = [
 	{
 		id: 1,
-		image: "https://photos.app.goo.gl/VyB7zmaTTEurPCTy5",
+		image:
+			"https://doc-04-28-docs.googleusercontent.com/docs/securesc/o1mhpklmo9p8qt7r2sub31533for0cpf/2uik0g7qnnlnfds6s6i7uueb2s0s5rou/1615783425000/16666189320869235014/14026472240570760971/179ndqg_Mz1JTNvUX01FMTCoyh4E3P46P?authuser=0",
 	},
 	{
 		id: 2,
 		image:
-			"https://drive.google.com/file/d/1hs-vVoMuov0huRa2bUWprPUPNDoIjqGf/view?usp=sharing",
+			"https://doc-00-28-docs.googleusercontent.com/docs/securesc/o1mhpklmo9p8qt7r2sub31533for0cpf/ujssn8bgbo0msegdg2a68so732919dd2/1615783425000/16666189320869235014/14026472240570760971/1S_CLqs9_YxEOS0SSiXppxF5NckAJi5R-?authuser=0",
 	},
 	{
 		id: 3,
 		image:
-			"https://photos.google.com/search/_tra_/photo/AF1QipPxWG0xfQZb5u71XPV_pMIRlcS4zUxGrLmmz3aJ",
+			"https://doc-08-28-docs.googleusercontent.com/docs/securesc/o1mhpklmo9p8qt7r2sub31533for0cpf/og6qnpunc535ojuceva2277m72ngrkkc/1615783500000/16666189320869235014/14026472240570760971/1OBN1zmisN5ra3gydLJY817hVF0Idzif8?authuser=0",
 	},
 	{
 		id: 4,
