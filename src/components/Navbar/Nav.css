@@ -183,12 +183,13 @@
 
 }
 @media screen and (max-width:768px){
-	.header-form form input[type='text']{
-        display: none;
+    .header-bottom-top-container{
+        flex-wrap: wrap;
     }
-    .header-form form{
-        justify-content: flex-end;
+    .header-form{
+        padding:0px 20px;
     }
+   
     .search-icon{
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
