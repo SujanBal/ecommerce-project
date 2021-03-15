@@ -1,22 +1,22 @@
 const slider = [
 	{
 		id: 1,
-		image: "../../images/slider1.jpg",
+		image: "https://photos.app.goo.gl/VyB7zmaTTEurPCTy5",
 	},
 	{
 		id: 2,
 		image:
-			"https://images.unsplash.com/photo-1598994392980-53a7fb033bcc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1764&q=80",
+			"https://drive.google.com/file/d/1hs-vVoMuov0huRa2bUWprPUPNDoIjqGf/view?usp=sharing",
 	},
 	{
 		id: 3,
 		image:
-			"https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg",
+			"https://photos.google.com/search/_tra_/photo/AF1QipPxWG0xfQZb5u71XPV_pMIRlcS4zUxGrLmmz3aJ",
 	},
 	{
 		id: 4,
 		image:
-			"https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+			"https://doc-0o-28-docs.googleusercontent.com/docs/securesc/o1mhpklmo9p8qt7r2sub31533for0cpf/65dabl3b1phvld3cfjdvcj0kudvp1k11/1615781850000/16666189320869235014/14026472240570760971/1Usmkc1kTkekP576BCHIMv1ESBXGh4TlU?authuser=0&nonce=o9n17afgut6s8&user=14026472240570760971&hash=50csnhft52pj084bie5uscrl79srmkks",
 	},
 ];
 
