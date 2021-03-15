@@ -1,12 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import useDefaultContext from "../../context";
 import { Link } from "react-router-dom";
 import "./index.css";
 
 export default function Products() {
-	const { isLoading, items } = useDefaultContext();
+	const [isLoading, setisLoading] = useState(true);
+	const { searchitem, items } = useDefaultContext();
+	useEffect(() => {
+		document.querySelector("#searchref").value = searchitem;
+	}, [searchitem]);
+	useEffect(() => {
+		const timeout = setTimeout(() => {
+			setisLoading(false);
+		}, 500);
+		return () => {
+			clearTimeout(timeout);
+		};
+	}, []);
 	if (isLoading) {
-		return <h1>Loading...</h1>;
+		return (
+			<div className="products-loading">
+				<h1>Loading...</h1>
+			</div>
+		);
 	}
 	return (
 		<section className="products">

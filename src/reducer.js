@@ -32,7 +32,7 @@ const reducer = (state, action) => {
 		};
 	}
 	if (action.type === "setLoading") {
-		return { ...state, isLoading: false };
+		return { ...state, isLoading: true };
 	}
 	if (action.type === "ordernow") {
 		const newcartitems = state.items.find((item) => item.id === action.payload);

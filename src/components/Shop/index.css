@@ -1,4 +1,10 @@
+.products-loading{
+	min-height: 64vh;
+    display:flex;
+    justify-content: center;
+}
 .products {
+	min-height: 64vh;
 	display:flex;
 	justify-content: center;
 	align-items: center;

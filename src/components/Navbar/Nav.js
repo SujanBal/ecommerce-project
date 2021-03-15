@@ -5,12 +5,15 @@ import { Link } from "react-router-dom";
 
 export default function Nav() {
 	const {
-		// searchitem,
+		searchitem,
 		total_price,
 		searchHandler,
 		searchFormHandler,
 	} = useDefaultContext();
 	const searchref = useRef("");
+	useEffect(() => {
+		document.querySelector("#searchref").value = searchitem;
+	}, [searchitem]);
 	useEffect((e) => {
 		searchref.current.focus();
 	}, []);
@@ -32,6 +35,7 @@ export default function Nav() {
 					<div className="header-form">
 						<form onSubmit={searchFormHandler}>
 							<input
+								id="searchref"
 								type="text"
 								placeholder="Search for drinks"
 								ref={searchref}

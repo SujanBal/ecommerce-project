@@ -9,16 +9,26 @@ export default function SingleProductInfo() {
 	const { fetchsingle, singleitem, ordernow } = useDefaultContext();
 
 	useEffect(() => {
+		document.querySelector("#searchref").value = null;
+	}, []);
+
+	useEffect(() => {
+		setisLoading(true);
 		fetchsingle(productid);
-		setisLoading(false);
+		const timeout = setTimeout(() => {
+			setisLoading(false);
+		}, 500);
+		return () => {
+			clearTimeout(timeout);
+		};
 	}, [productid, fetchsingle]);
 	if (isLoading) {
-		return <h1>Loading...</h1>;
+		return (
+			<div className="singleproduct-loading">
+				<h1>Loading...</h1>
+			</div>
+		);
 	}
-	if (!singleitem) {
-		return <h1>No cocktail to display</h1>;
-	}
-	console.log(singleitem);
 	const {
 		id,
 		name,

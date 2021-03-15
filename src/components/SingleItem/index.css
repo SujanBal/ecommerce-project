@@ -1,8 +1,14 @@
+.singleproduct-loading{
+    min-height: 64vh;
+    display:flex;
+    justify-content: center;
+}
 .singleproduct-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .singleproduct-secondcontainer{
     margin-top:20px;
     width: 75%;;

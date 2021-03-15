@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-// import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { faqs } from "./data";
 
 export default function Faq() {
 	const [questions] = useState(faqs);
-	// , setquestions
 
 	return (
 		<section className="faq">

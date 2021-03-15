@@ -7,6 +7,10 @@ export default function Hero() {
 	// setbackgrounds
 	const [backgroundindex, setbackgroundindex] = useState(0);
 
+	useEffect(() => {
+		document.querySelector("#searchref").value = null;
+	}, []);
+
 	const checknum = useCallback(
 		(newindex) => {
 			if (newindex < 0) {

@@ -7,7 +7,7 @@ const AppContext = React.createContext();
 
 const initialState = {
 	isLoading: true,
-	searchitem: "martini",
+	searchitem: "",
 	singleitem: {},
 	items: [],
 	trending: [],
@@ -66,7 +66,6 @@ const AppProvider = ({ children }) => {
 			} else {
 				dispatch({ type: "addemptylist" });
 			}
-			dispatch({ type: "setLoading" });
 		}
 		fetchAll();
 	}, [alldetails.searchitem]);
